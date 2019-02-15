@@ -1,0 +1,32 @@
+.table-bordered>tbody>tr>td{
+        border: 1px solid #333;
+    }
+     .table-bordered>thead>tr>th{
+        border: 1px solid #333;
+    }
+    .table>thead:first-child>tr:first-child>th {
+        border-top:1px solid black;
+}
+.grooveTable {
+    width: 100%; 
+    height: 100%; 
+    margin: 0 auto; 
+    border-bottom:groove;
+    border-left:groove; 
+    border-right:groove;
+    border-top:groove;
+}
+.navbar-default {
+    background-color: #ddd;
+    border-color: #7d0909;
+}
+.grooveTable td {
+    cursor: pointer;
+    border-bottom:groove; 
+    border-left:groove; 
+    border-right:groove; 
+    border-top:groove;
+}
+.grooveeTable tr:first {
+    border-bottom:medium;
+}
